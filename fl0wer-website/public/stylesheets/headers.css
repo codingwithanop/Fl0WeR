@@ -1,0 +1,93 @@
+header.main {
+    padding-top: 115px;
+    text-align: center;
+    color: white;
+    padding-left:15%;
+    text-align:left;
+    position: relative;
+    z-index: 2;
+}
+header div {
+    text-align: left;
+    width: 75%;
+}
+header h1 {
+    font-size: 2.5rem;
+}
+header p {
+    font-size: 1.25rem;
+}
+header h4 {
+    color: #2d2e32;
+}
+header h4 span {
+    border-radius: 5px;
+    background: #aa0000;
+    padding: 5px;
+    max-width: 200px;
+    height: 150px;
+}
+  
+header.contact {
+    padding-top: 115px;
+    text-align: center;
+    color: white;
+    padding-left:15%;
+    padding-right:15%;
+    padding-bottom:115px;
+    text-align:left;
+    position: relative;
+    z-index: 2;
+}
+header.project {
+    padding-top: 115px;
+    text-align: center;
+    color: white;
+    padding-left:15%;
+    padding-right:15%;
+    padding-bottom:115px;
+    text-align:left;
+    position: relative;
+    z-index: 2;
+}
+
+header.home-features {
+    padding: 60px;
+    text-align: center;
+    background: #1B1C1C;
+    color: white;
+}
+
+header.home-ready {
+    padding: 60px;
+    text-align: center;
+    background: #121313;
+    color: white;
+}
+
+header.home-footer {
+    padding: 60px;
+    text-align: center;
+    background: #890001;
+    color: white;
+}
+
+header.card2 {
+    padding: 60px;
+    text-align: center;
+    background: #1B1C1C;
+    color: white;
+}
+
+header.home {
+    padding: 60px;
+    text-align: center;
+    background: #880000;
+    color: white;
+}
+header.home h1 {
+    font-size: 2.5rem;
+}
+header.home p {
+    font-size: 1.25rem;
+}

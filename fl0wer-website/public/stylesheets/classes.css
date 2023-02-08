@@ -1,0 +1,276 @@
+.padding {
+    padding: 14px 16px;
+}
+
+.site {
+    float: left;
+}
+
+.main-nav {
+    float: left;
+    position: relative;
+}
+
+.icons {
+    float: right;
+}
+
+.icon-bar {
+    float: right;
+}
+
+.link {
+    color: #aa0000;
+    border-bottom: 3px dotted #aa0000;
+    text-decoration: none;
+}
+
+.link-clear {
+    color: #aa0000;
+    text-decoration: none;
+}
+
+.link-clear:hover {
+    color: #aa0000;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #aa0000;
+    border-bottom: 3px dotted #aa0000;
+    text-decoration: none;
+}
+
+.heighlight {
+    color: #ff0000;
+}
+
+.fa-space {
+    margin-right: 1em;
+}
+
+img.bg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-width: 1000px;
+    z-index: 1;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cursor {
+    width: 15px;
+    height: 15px;
+    border: 3px solid #ff0000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: -50%, -50%;
+    border-radius: 50%;
+    z-index: 500;
+    pointer-events: none;
+}
+
+@media screen and (max-width:865px) {
+    .cursor {
+        display: none;
+    }
+
+}
+
+.logo-rounded {
+    top: 27%;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 32px;
+    position: absolute;
+}
+
+.center.logo {
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.logo.home {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 128px;
+}
+
+.elements-projects {
+    border-radius: 10px;
+    background: #25262a;
+    padding: 20px;
+    max-width: 500px;
+    height: 150px;
+}
+
+.element.contact {
+    border-radius: 10px;
+    background: #25262a;
+    padding: 20px;
+    max-width: 500px;
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+}
+
+.element.projects {
+    border-radius: 10px;
+    background: #25262a;
+    padding: 20px;
+    max-width: 500px;
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+}
+
+.lists {
+    width: 100%;
+}
+
+.child {
+    float: left;
+    margin: 10px 15px;
+    border-radius: 10px;
+    background: #25262a;
+    padding: 20px;
+    max-width: 500px;
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.separation {
+    float: left;
+    max-width: 1200px;
+    width: 100%;
+    margin-right: 10px;
+    padding: 35px 16px 35px 16px;
+    color: #800;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    place-items: center;
+    border-bottom: #800 3px dotted;
+}
+
+
+.info {
+    padding: 35px 16px 35px 16px;
+    color: #fff;
+    min-height: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    place-items: center;
+}
+
+.info .text {
+    text-align: left;
+    padding: 5px 5px 5px 50px;
+    width: 45%;
+}
+
+.features {
+    text-align: middle;
+    padding: 5px 5px 5px 50px;
+    width: 45%;
+}
+
+.img-info {
+    height: 100%;
+    width: 100%;
+    max-width: 400px;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column-size {
+    float: left;
+    width: 5%;
+    padding: 10px;
+    min-height: 200px;
+    /* Should be removed. Only for demonstration */
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    min-height: 200px;
+    /* Should be removed. Only for demonstration */
+}
+
+.column div {
+    padding: 15px 15px 0px 15px;
+}
+
+.row {
+    background-color: #890001;
+    color: #fff;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 750px) {
+    .column {
+        width: 100%;
+    }
+
+    .column-size {
+        display: none;
+    }
+}
+
+.link-clear-footer {
+    color: #fff;
+    text-decoration: none;
+}
+
+.color.black {
+    color: #000;
+    font: bold;
+}
+
+.color.black {
+    color: #000;
+    font: bold;
+}
+
+.color.white {
+    color: #fff;
+    font: bold;
+}
+
+.color.white:hover {
+    color: #bbb;
+    font: bold;
+}
+
+.justcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.logo-footer {
+    max-width: 40px;
+    border-radius: 50%;
+}
